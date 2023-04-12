@@ -1,0 +1,39 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #ccc;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+}
+
+.text-input {
+  height: 100px;
+}
+
+table.competencies-table {
+  font-size: 14px;
+  padding: 10px;
+  margin: 0 auto;
+}
